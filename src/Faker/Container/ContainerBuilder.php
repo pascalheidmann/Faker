@@ -9,6 +9,7 @@ use Faker\Extension\BarcodeExtension;
 use Faker\Extension\BloodExtension;
 use Faker\Extension\ColorExtension;
 use Faker\Extension\DateTimeExtension;
+use Faker\Extension\DateTimeImmutableExtension;
 use Faker\Extension\FileExtension;
 use Faker\Extension\NumberExtension;
 use Faker\Extension\UuidExtension;
@@ -72,6 +73,7 @@ final class ContainerBuilder
             BloodExtension::class => Core\Blood::class,
             ColorExtension::class => Core\Color::class,
             DateTimeExtension::class => Core\DateTime::class,
+            DateTimeImmutableExtension::class => Core\DateTimeImmutable::class,
             FileExtension::class => Core\File::class,
             NumberExtension::class => Core\Number::class,
             VersionExtension::class => Core\Version::class,

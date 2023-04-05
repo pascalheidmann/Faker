@@ -1,6 +1,8 @@
 # CHANGELOG
 
-## [Unreleased](https://github.com/FakerPHP/Faker/compare/v1.20.0...main)
+## [Unreleased](https://github.com/FakerPHP/Faker/compare/v1.21.0...main)
+
+- Added DateTimeImmutable extension with same api as DateTimeExtension
 
 ## [2022-12-13, v1.21.0](https://github.com/FakerPHP/Faker/compare/v1.20.0..v1.21.0)
 
